@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
 
-  <title>Suga</title>
+  <title>Nexus Marketing</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -89,7 +89,8 @@ https://templatemo.com/tm-582-tale-seo-agency
             <ul class="nav">
               <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
               <li class="scroll-to-section"><a href="#services">Servicios</a></li>
-              <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+              <li class="scroll-to-section"><a href="#projects">Clientes</a></li>
+              <!--
               <li class="has-sub">
                 <a href="javascript:void(0)">Pages</a>
                 <ul class="sub-menu">
@@ -97,8 +98,9 @@ https://templatemo.com/tm-582-tale-seo-agency
                   <li><a href="faqs.html">FAQs</a></li>
                 </ul>
               </li>
-              <li class="scroll-to-section"><a href="#infos">Infos</a></li>
-              <li class="scroll-to-section"><a href="#contact">Contact</a></li>
+              -->
+              <!-- <li class="scroll-to-section"><a href="#infos">Infos</a></li> -->
+              <li class="scroll-to-section"><a href="#contact">Contacto</a></li>
             </ul>
             <a class='menu-trigger'>
               <span>Menu</span>
@@ -111,6 +113,8 @@ https://templatemo.com/tm-582-tale-seo-agency
   </header>
   <!-- ***** Header Area End ***** -->
 
+
+  
   <div class="main-banner" id="top">
     <div class="container">
       <div class="row">
@@ -120,16 +124,23 @@ https://templatemo.com/tm-582-tale-seo-agency
             <div class="line-dec"></div>
             <h4> <br><em>Marketing</em> Digital <span id="title1">Para empresas B2B y B2C</span></h4>
             <p>Campañas de Marketing Digital enfocadas en
-              tráfico calificado y generación de leads. <a
-                href="index.html">Inicio</a>, <a href="about.html">Sobre</a> y <a href="faqs.html">FAQ</a>.</p>
+              tráfico calificado y generación de leads. <!--<a
+              
+                 -- MAS / CONSULTAS FRECUENTES ! agregar --
+               href="index.html">Inicio</a> <a href="about.html">Sobre</a> y <a href="faqs.html">FAQ</a>.--></p>
+               <!--
             <div class="main-button scroll-to-section"><a href="#services">Más</a></div>
             <span>o</span>
             <div class="second-button"><a href="faqs.html">Consultas frecuentes</a></div>
+               -->
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+
 
   <div class="services section" id="services">
     <div class="container">
@@ -301,9 +312,9 @@ https://templatemo.com/tm-582-tale-seo-agency
 
 
 -->
-
+<div class="centered-container">
   <div class="contact-us section" id="contact">
-    <div class="container">
+     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="contact-us-content">
@@ -361,8 +372,18 @@ https://templatemo.com/tm-582-tale-seo-agency
                     <div class="col-lg-12">
                       <fieldset>
                         <a>
-                          <button type="button" id="form-submit"  class="orange-button">Whatsapp</button>
+                          <button href="https://www.linkedin.com/in/franco-marinozzi-377127254/" type="button" id="form-submit"  class="orange-button">Whatsapp</button>
                         </a>
+                        <script>
+                          // Obtener el elemento del botón por su ID
+                          var buttonElement = document.getElementById("form-submit");
+                  
+                          // Agregar un evento de clic al botón
+                          buttonElement.addEventListener("click", function() {
+                              // Redirigir al enlace cuando se hace clic en el botón
+                              window.open("https://bit.ly/NexusMarketingWhatsapp", "_blank");;
+                          });
+                      </script>
                        
 
                       </fieldset>
@@ -373,29 +394,33 @@ https://templatemo.com/tm-582-tale-seo-agency
                   <div class="row">
                     <div class="col-lg-4">
                       <div class="info-item">
-                        <i class="fa fa-phone"></i>
+                        <img id="logotel" src="assets/images/tel.png" class="fa fa-phone"></i>
                         <h4><a href="#">+54 9 11 3602-1878</a></h4>
                       </div>
                     </div>
                     <div class="col-lg-4">
                       <div class="info-item">
-                        <!--
-                        <i class="fa fa-envelope"></i>
-                        <h4><a href="#">info@company.com</a></h4>
-                        <h4><a href="#">hello@company.com</a></h4>
-                        -->
+                        
+                        <img id="logofb" src="assets/images/logofb.png" href="https://www.facebook.com/profile.php?id=61550422228988" class="fa fa-envelope"></i>
+                        
+                        <h4><a href="https://www.facebook.com/profile.php?id=61550422228988">Facebook</a></h4>
+                        
                       </div>
                     </div>
                     <div class="col-lg-4">
-                      <div class="info-item">
-                         <!--
-                        <i class="fa fa-map-marker"></i>
-                        <h4><a href="#">Sunny Isles Beach, FL 33160, United States</a></h4>
-                         -->
+                      <div  class="info-item">
+                        
+                      
+                        <img id="logoig" src="assets/images/logoig.png" href="https://www.instagram.com/_nexusmarketing_/" class="fa fa-map-marker">
+                        <h4><a href="https://www.instagram.com/_nexusmarketing_/">Instagram</a></h4>
+                         
                       </div>
+                      
                     </div>
+                    
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
@@ -404,6 +429,8 @@ https://templatemo.com/tm-582-tale-seo-agency
     </div>
   </div>
 
+  <!--
+</div>
   <footer>
     <div class="container">
       <div class="col-lg-12">
@@ -415,7 +442,7 @@ https://templatemo.com/tm-582-tale-seo-agency
       </div>
     </div>
   </footer>
-
+-->
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
